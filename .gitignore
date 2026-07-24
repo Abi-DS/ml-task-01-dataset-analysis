@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------------------
+# Dataset — never committed. Keep the WikiArt data OUTSIDE this repository and
+# point the notebook at it via DATASET_ROOT / WIKIART_DATASET_ROOT (see README).
+# These patterns guard against accidentally adding data if placed locally.
+# ---------------------------------------------------------------------------
+data/
+datasets/
+classes.csv
+wclasses.csv
+*.jpg
+*.jpeg
+*.png
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# ---------------------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---------------------------------------------------------------------------
+# Generated artifacts / logs
+# ---------------------------------------------------------------------------
+*.log
+reports/derived/
+
+# ---------------------------------------------------------------------------
+# OS / editor / tooling
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/

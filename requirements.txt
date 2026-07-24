@@ -1,0 +1,15 @@
+# WikiArt dataset analysis — runtime dependencies
+# Target: Python 3.11+  (pathlib is part of the standard library)
+#
+# Pinned to lower bounds that are known-compatible with the notebook.
+# Install with:  python -m pip install -r requirements.txt
+
+pandas>=2.0
+numpy>=1.24
+Pillow>=10.0
+matplotlib>=3.7
+tqdm>=4.65
+
+# --- Notebook execution (needed only to run notebooks/analysis.ipynb) ---
+jupyterlab>=4.0
+ipykernel>=6.25

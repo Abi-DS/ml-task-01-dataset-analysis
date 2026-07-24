@@ -1,0 +1,11 @@
+# Normalize text line endings in the repo; let Git pick native EOL on checkout.
+* text=auto
+
+# Binary assets — never apply line-ending conversion (protects the PDF report).
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+
+# Jupyter notebooks are JSON: keep LF for stable, cross-platform diffs.
+*.ipynb text eol=lf
