@@ -104,8 +104,10 @@ the slow step. During development, set `INTEGRITY_SAMPLE` in the configuration
 cell to an integer (e.g. `4000`) for a fast partial pass; leave it `None` for
 the full scan.
 
-The notebook is committed with cleared outputs for reproducibility and size; the
-rendered results and all figures are captured in `reports/summary.pdf`.
+The notebook is committed with its executed outputs — every table, figure,
+statistic, and sample image — so reviewers can read the full analysis without
+running it. `reports/summary.pdf` presents the same results as a written report.
+Re-running top-to-bottom reproduces the committed outputs exactly.
 
 ---
 
